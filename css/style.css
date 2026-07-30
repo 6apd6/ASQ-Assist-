@@ -1125,3 +1125,9 @@ section {
 ::-webkit-scrollbar-thumb:hover {
     background: var(--secondary-gold);
 }
+   /* Force buttons to be clickable and sit on top of everything */
+   .btn-primary {
+       position: relative;
+       z-index: 10;
+       pointer-events: auto !important;
+   }
