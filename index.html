@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ASQ Assist - Premium Business Solutions | Graphics Design, Marketing & BPO</title>
+    <meta name="description" content="ASQ Assist offers premium business solutions including graphics design, video editing, lead generation, sales training, social media marketing, and BPO outsourcing.">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- Calendly link widget -->
+    <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <div class="nav-wrapper">
+                <div class="logo">
+                    <img src="images/logo.png" alt="ASQ Assist Logo" class="logo-img">
+                    <span class="logo-text">ASQ Assist</span>
+                </div>
+                <button class="mobile-menu-toggle" id="mobileMenuToggle">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <ul class="nav-menu" id="navMenu">
+                    <li><a href="#home" class="nav-link active">Home</a></li>
+                    <li><a href="about.html" class="nav-link">About Us</a></li>
+                    <li><a href="services.html" class="nav-link">Services</a></li>
+                    <li><a href="#testimonials" class="nav-link">Testimonials</a></li>
+                    <li><a href="contact.html" class="nav-link">Contact</a></li>
+                    <li><a href="#" class="btn-book-nav" onclick="Calendly.initPopupWidget({url: 'YOUR_CALENDLY_LINK'});return false;">Book a Call</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-bg-animation"></div>
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-badge">
+                    <i class="fas fa-star"></i> Trusted by 500+ Clients Worldwide
+                </div>
+                <h1 class="hero-title">
+                    Transform Your Business With <span class="gold-text">AI-Powered</span> Solutions
+                </h1>
+                <p class="hero-subtitle">
+                    From graphics design to BPO outsourcing, we deliver excellence that drives results. 
+                    Let our AI agents and expert team handle your business needs 24/7.
+                </p>
+                <div class="hero-cta">
+                    <a href="#" class="btn-primary btn-large" onclick="Calendly.initPopupWidget({url: 'YOUR_CALENDLY_LINK'});return false;">
+                        <i class="fas fa-calendar-check"></i> Book a Free Consultation
+                    </a>
+                    <a href="services.html" class="btn-secondary btn-large">
+                        <i class="fas fa-play-circle"></i> Explore Services
+                    </a>
+                </div>
+                <div class="hero-features">
+                    <div class="hero-feature">
+                        <i class="fas fa-check-circle"></i>
+                        <span>24/7 AI Support</span>
+                    </div>
+                    <div class="hero-feature">
+                        <i class="fas fa-check-circle"></i>
+                        <span>Fast Turnaround</span>
+                    </div>
+                    <div class="hero-feature">
+                        <i class="fas fa-check-circle"></i>
+                        <span>Expert Team</span>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="hero-image-wrapper">
+                    <img src="images/founder.jpg" alt="Joffrey R. Aporado - Founder & CEO" class="founder-img">
+                    <div class="founder-info">
+                        <h3>Joffrey R. Aporado</h3>
+                        <p>Founder & CEO</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="hero-scroll-indicator">
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
+
+    <!-- Services Preview Section -->
+    <section class="services-preview" id="services">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">What We Offer</span>
+                <h2 class="section-title">Our <span class="gold-text">Premium Services</span></h2>
+                <p class="section-subtitle">Comprehensive business solutions tailored to your needs</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card" data-aos="fade-up">
+                    <div class="service-icon">
+                        <i class="fas fa-palette"></i>
+                    </div>
+                    <h3>Graphics Design</h3>
+                    <p>Stunning visuals that capture your brand essence and engage your audience.</p>
+                    <a href="services.html#graphics" class="service-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="service-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="service-icon">
+                        <i class="fas fa-video"></i>
+                    </div>
+                    <h3>Video Editing</h3>
+                    <p>Professional video editing that brings your stories to life.</p>
+                    <a href="services.html#video" class="service-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="service-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="service-icon">
+                        <i class="fas fa-bullhorn"></i>
+                    </div>
+                    <h3>Social Media Marketing</h3>
+                    <p>Strategic campaigns that boost your online presence and engagement.</p>
+                    <a href="services.html#social" class="service-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="service-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="service-icon">
+                        <i class="fas fa-globe"></i>
+                    </div>
+                    <h3>Website Development</h3>
+                    <p>Custom websites that convert visitors into customers.</p>
+                    <a href="services.html#website" class="service-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="service-card" data-aos="fade-up" data-aos-delay="400">
+                    <div class="service-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>Lead Generation</h3>
+                    <p>Quality leads that drive sales and grow your business.</p>
+                    <a href="services.html#leads" class="service-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="service-card" data-aos="fade-up" data-aos-delay="500">
+                    <div class="service-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3>BPO Outsourcing</h3>
+                    <p>Cost-effective outsourcing solutions for your business operations.</p>
+                    <a href="services.html#bpo" class="service-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+            <div class="text-center mt-2">
+                <a href="services.html" class="btn-primary">View All Services</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us Section -->
+    <section class="why-choose">
+        <div class="container">
+            <div class="why-grid">
+                <div class="why-content">
+                    <span class="section-badge">Why Choose Us</span>
+                    <h2 class="section-title">Experience the <span class="gold-text">ASQ Advantage</span></h2>
+                    <div class="why-features">
+                        <div class="why-feature">
+                            <div class="why-icon">
+                                <i class="fas fa-robot"></i>
+                            </div>
+                            <div class="why-text">
+                                <h3>AI-Powered Efficiency</h3>
+                                <p>Our AI agents work 24/7 to handle your inquiries, book appointments, and provide instant support.</p>
+                            </div>
+                        </div>
+                        <div class="why-feature">
+                            <div class="why-icon">
+                                <i class="fas fa-award"></i>
+                            </div>
+                            <div class="why-text">
+                                <h3>Since 2018</h3>
+                                <p>Over 6 years of delivering exceptional results and building lasting client relationships.</p>
+                            </div>
+                        </div>
+                        <div class="why-feature">
+                            <div class="why-icon">
+                                <i class="fas fa-headset"></i>
+                            </div>
+                            <div class="why-text">
+                                <h3>Dedicated Support</h3>
+                                <p>Round-the-clock customer service through multiple channels - phone, chat, email, and WhatsApp.</p>
+                            </div>
+                        </div>
+                        <div class="why-feature">
+                            <div class="why-icon">
+                                <i class="fas fa-bolt"></i>
+                            </div>
+                            <div class="why-text">
+                                <h3>Fast Turnaround</h3>
+                                <p>Quick delivery without compromising on quality. Your time is valuable.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="why-image">
+                    <div class="stats-container">
+                        <div class="stat-card">
+                            <div class="stat-number" data-count="500">0</div>
+                            <div class="stat-label">Happy Clients</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-number" data-count="1500">0</div>
+                            <div class="stat-label">Projects Completed</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-number" data-count="98">0</div>
+                            <div class="stat-label">Satisfaction Rate %</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-number" data-count="24">0</div>
+                            <div class="stat-label">/7 Support</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials" id="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">Testimonials</span>
+                <h2 class="section-title">What Our <span class="gold-text">Clients Say</span></h2>
+                <p class="section-subtitle">Don't just take our word for it</p>
+            </div>
+            <div class="testimonials-slider">
+                <div class="testimonial-card active">
+                    <div class="testimonial-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">"ASQ Assist transformed our social media presence. Their team is professional, creative, and always delivers on time. The AI chatbot they set up handles our customer inquiries flawlessly!"</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div class="author-info">
+                            <h4>Maria Santos</h4>
+                            <p>CEO, TechStart Philippines</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">"The graphics design work exceeded our expectations. They understood our brand immediately and created stunning visuals that resonate with our audience. Highly recommended!"</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div class="author-info">
+                            <h4>Carlos Reyes</h4>
+                            <p>Marketing Director, Global Ventures</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">"Their BPO services helped us scale our operations efficiently. The team is knowledgeable, responsive, and truly cares about our success. A game-changer for our business!"</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div class="author-info">
+                            <h4>Jennifer Cruz</h4>
+                            <p>Operations Manager, Innovate Corp</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonials-nav">
+                <button class="testimonial-dot active" data-index="0"></button>
+                <button class="testimonial-dot" data-index="1"></button>
+                <button class="testimonial-dot" data-index="2"></button>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Ready to Transform Your Business?</h2>
+                <p>Book a free consultation with our team and discover how ASQ Assist can help you achieve your goals.</p>
+                <div class="cta-buttons">
+                    <a href="#" class="btn-primary btn-large" onclick="Calendly.initPopupWidget({url: 'YOUR_CALENDLY_LINK'});return false;">
+                        <i class="fas fa-calendar-plus"></i> Schedule a Call
+                    </a>
+                    <a href="tel:09167698066" class="btn-secondary btn-large">
+                        <i class="fas fa-phone"></i> Call Us Now
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <div class="footer-logo">
+                        <img src="images/logo.png" alt="ASQ Assist" class="logo-img">
+                        <span class="logo-text">ASQ Assist</span>
+                    </div>
+                    <p class="footer-desc">Premium business solutions powered by AI and human expertise. Transforming businesses since 2018.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-facebook"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="#testimonials">Testimonials</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Services</h4>
+                    <ul class="footer-links">
+                        <li><a href="services.html#graphics">Graphics Design</a></li>
+                        <li><a href="services.html#video">Video Editing</a></li>
+                        <li><a href="services.html#social">Social Media Marketing</a></li>
+                        <li><a href="services.html#website">Web Development</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Contact Info</h4>
+                    <ul class="footer-contact">
+                        <li>
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Brgy. Cabuco, Trece Martires City<br>Cavite, Philippines 4109</span>
+                        </li>
+                        <li>
+                            <i class="fas fa-phone"></i>
+                            <a href="tel:09167698066">0916 769 8066</a>
+                        </li>
+                        <li>
+                            <i class="fas fa-envelope"></i>
+                            <a href="mailto:asqassist@gmail.com">asqassist@gmail.com</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2018-2026 ASQ Assist. All rights reserved. | Founded by Joffrey R. Aporado</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- AI Chat Widget -->
+    <div class="ai-chat-widget" id="aiChatWidget">
+        <div class="chat-toggle" id="chatToggle">
+            <i class="fas fa-robot"></i>
+            <span class="chat-badge"></span>
+        </div>
+        <div class="chat-container" id="chatContainer">
+            <div class="chat-header">
+                <div class="chat-header-info">
+                    <div class="chat-avatar">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <div>
+                        <h4>ASQ AI Assistant</h4>
+                        <span class="chat-status"><i class="fas fa-circle"></i> Online</span>
+                    </div>
+                </div>
+                <button class="chat-close" id="chatClose">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+            <div class="chat-messages" id="chatMessages">
+                <div class="message bot-message">
+                    <div class="message-content">
+                        Hello! 👋 I'm the ASQ AI Assistant. How can I help you today? I can:
+                        <ul class="help-list">
+                            <li>Answer questions about our services</li>
+                            <li>Help you book an appointment</li>
+                            <li>Provide pricing information</li>
+                            <li>Connect you with our team</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="chat-input-container">
+                <input type="text" class="chat-input" id="chatInput" placeholder="Type your message...">
+                <button class="chat-send" id="chatSend">
+                    <i class="fas fa-paper-plane"></i>
+                </button>
+            </div>
+            <div class="chat-quick-replies" id="quickReplies">
+                <button class="quick-reply" data-message="I want to book a consultation">Book Consultation</button>
+                <button class="quick-reply" data-message="Tell me about your services">Our Services</button>
+                <button class="quick-reply" data-message="What are your prices?">Pricing</button>
+                <button class="quick-reply" data-message="I need to speak with someone">Talk to Human</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Calendly Popup Widget -->
+    <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript"></script>
+    <script src="js/main.js"></script>
+    <script src="js/ai-agent.js"></script>
+</body>
+</html>
